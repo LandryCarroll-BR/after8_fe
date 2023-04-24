@@ -37,7 +37,7 @@ export function ArticleLayout({ children, meta }) {
                 {meta.title.split(' - After8music')}
               </h1>
               <time
-                dateTime={meta.opengraphPublishedTime}
+                dateTime={new Date(meta.opengraphPublishedTime)}
                 className="order-first flex items-center text-base text-zinc-400 "
               >
                 <span className="h-4 w-0.5 rounded-full bg-zinc-200" />

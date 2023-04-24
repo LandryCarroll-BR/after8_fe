@@ -16,7 +16,7 @@ export default function DefaultTemplate(props) {
       <Head>{parse(seo?.fullHead)}</Head>
       <Header />
       <ArticleLayout meta={seo} {...props}>
-        {parse(JSON.stringify(content))}
+        {content ? parse(content) : null}
       </ArticleLayout>
       <Footer />
     </>
