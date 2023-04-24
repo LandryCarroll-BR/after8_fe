@@ -1,0 +1,8 @@
+@import url('./filmgrain.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  min-height: 100%;
+}
