@@ -5,7 +5,12 @@ const nextConfig = {
     scrollRestoration: true,
   },
   images: {
-    domains: ['after8music.local', 'images.unsplash.com'],
+    domains: [
+      'after8music.local',
+      'images.unsplash.com',
+      'after8musicstg.wpengine.com',
+      'after8music.com',
+    ],
   },
 }
 
