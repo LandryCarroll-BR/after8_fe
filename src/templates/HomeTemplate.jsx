@@ -23,7 +23,7 @@ function TheKnotSVG() {
         </clipPath>
       </defs>
       <g id="Group_6" data-name="Group 6" transform="translate(0 0)">
-        <g id="Group_5" data-name="Group 5" clip-path="url(#clip-path)">
+        <g id="Group_5" data-name="Group 5" clipPath="url(#clip-path)">
           <path
             id="Path_1"
             data-name="Path 1"
