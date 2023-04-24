@@ -162,7 +162,7 @@ function HeroSection() {
           </h1>
 
           <Link
-            href={heroData?.cta?.url}
+            href="mailto:booking@after8music.com"
             className="w-full max-w-[250px] rounded-full border-2 border-accent-500 px-12 py-5 text-center font-sans text-sm font-bold uppercase text-accent-500 hover:bg-accent-500 hover:text-siteBackground"
           >
             {heroData?.cta?.title}
