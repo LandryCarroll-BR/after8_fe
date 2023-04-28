@@ -1,6 +1,5 @@
 import { cva, type VariantProps } from 'cva'
 import Link from 'next/link'
-import { forwardRef } from 'react'
 
 /**
  * Styles
@@ -69,6 +68,7 @@ export function Button({
   ) : (
     <button
       className={ButtonStyles({ color, weight, fullWidth, className })}
+      style={{ fontFamily: 'Neue Haas Grotesk Display Pro' }}
       {...props}
     />
   )

@@ -1,9 +1,8 @@
 import '@/styles/tailwind.css'
 import 'focus-visible'
-import localFont from '@next/font/local'
-
 import { ApolloProvider } from '@apollo/client'
 import { apolloClient } from '@/services/apollo'
+import localFont from '@next/font/local'
 
 const caxton = localFont({
   src: '../../public/fonts/caxton.woff2',
