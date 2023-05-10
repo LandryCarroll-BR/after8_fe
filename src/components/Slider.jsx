@@ -1,4 +1,4 @@
-import { Button } from './Button'
+import { Button } from '@/components/buttons/Button'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { format } from 'date-fns'

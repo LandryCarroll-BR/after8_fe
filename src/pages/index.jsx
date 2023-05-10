@@ -1,5 +1,5 @@
-import { Button } from '@/components/Button'
 import TemplateSwitcher from '@/components/TemplateSwitcher'
+import { Button } from '@/components/buttons/Button'
 import { getMenuData, getPageTemplateData } from '@/services/api'
 import { createContext } from 'react'
 

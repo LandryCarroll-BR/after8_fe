@@ -1,7 +1,7 @@
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
+import { Button } from '@/components/buttons/Button'
 import { usePageContext } from '@/hooks/usePageContext'
 import { HomeContext } from '@/pages'
 import { PageContext } from '@/pages/[uri]'
